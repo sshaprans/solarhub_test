@@ -35,14 +35,32 @@ const swiperProjectMain = new Swiper(".swiper-project-main", {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 60,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 3000,
+    //     disableOnInteraction: false,
+    // },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
         dynamicBullets: true,
+    },
+    breakpoints: {
+        0:{
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        600: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 60,
+        },
+        950: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+        },
     },
 });
 const swiperStoreMain = new Swiper(".swiper--main-store", {
@@ -50,14 +68,33 @@ const swiperStoreMain = new Swiper(".swiper--main-store", {
     loop: true,
     slidesPerView: 4,
     spaceBetween: 20,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
         dynamicBullets: true,
+    },
+    breakpoints: {
+
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        520: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        720: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        950: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
     },
 });
 
