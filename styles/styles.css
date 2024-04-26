@@ -695,22 +695,22 @@ header{
 }
 /*mission end*/
 /*why-us*/
-.why-us__blocks{
+.content__blocks{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.why-us__left{
+.content__blocks__left{
     display: flex;
     flex-direction: column;
     gap: 45px;
 }
-.why-us__left__text{
+.content__blocks__left__text{
     font-size: 18px;
     padding-left: 30px;
     position: relative;
 }
-.why-us__left__text:before{
+.content__blocks__left__text:before{
     content: "";
     width: 10px;
     height: 100%;
@@ -721,7 +721,7 @@ header{
     z-index: -1;
     transform: skew(-10deg);
 }
-.why-us__left__item{
+.content__blocks__left__item{
     display: flex;
     align-items: center;
     gap: 25px;
@@ -729,7 +729,7 @@ header{
 .why-us__img{
     object-fit: contain;
 }
-.why-us__blocks-svg{
+.content__blocks-svg{
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -1028,7 +1028,7 @@ header{
         font-size: 18px;
     }
     .btn .btn__span__wrapper,
-    .why-us__left__text,
+    .content__blocks__left__text,
     .swiper-project-main__text__name,
     .product-title,
     .swiper-project-main__text__power,
@@ -1124,7 +1124,7 @@ header{
         color: var(--white);
         font-size: 16px;
     }
-    .why-us__blocks{
+    .content__blocks{
         flex-direction: column;
     }
     .why-us__img {
