@@ -1,0 +1,105 @@
+/*4*/
+/*banner*/
+.banner--about{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-title--green{
+    color: var(--green);
+}
+.banner__text--about{
+    margin-bottom: 30px;
+}
+.banner__wrapper--about{
+    padding-bottom: 50px;
+}
+/*banner end*/
+/*mission about*/
+.mission--about{
+    background-color: inherit;
+}
+.mission__blocks--about{
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.content__blocks-svg--with-title{
+    text-align: center;
+}
+.mission__text__title--about{
+    transform: skew(0, 0deg);
+}
+.mission__list__text--about:before{
+    display: none;
+}
+/*mission about end*/
+/*content article*/
+.content-article{
+    padding: 50px 0;
+}
+.content-article--grey{
+    background-color: var(--light-grey);
+}
+.content-article__wrapper{
+    display: flex;
+}
+.content-article--img{
+    max-width: 55%;
+    object-fit: contain;
+}
+.content-article__block-text{
+    padding: 30px 40px;
+    background-color: var(--white);
+    border: 3px solid var(--grey);
+    border-bottom: 3px solid var(--green);
+    transform: skew(-10deg, 0deg);
+    margin-left: -100px;
+    margin-top: 50px;
+}
+.content-article__block-text__wrapper{
+    transform: skew(10deg, 0deg);
+}
+.content-article__block-text__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-article__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content-article__list__span{
+    font-weight: 600;
+    color: var(--black);
+}
+/*content article end*/
+/*content about*/
+.content__blocks__left--about{
+    gap: 30px;
+}
+/*content about end*/
+/*media*/
+
+@media(max-width: 750px){
+    .content-article__wrapper {
+        flex-direction: column;
+    }
+    .content-article__block-text {
+        padding: 20px;
+        margin-left: 0;
+        margin-top: -20px;
+        transform: skew(0deg, 0deg)
+    }
+    .content-article--img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .content-article__block-text__wrapper {
+        transform: skew(0deg, 0deg);
+    }
+    .content-article__text{
+        font-size: 16px;
+    }
+}

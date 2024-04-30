@@ -1110,7 +1110,7 @@ header{
         width: fit-content;
     }
     .nav > #nav-check:checked ~ .nav-list {
-        height: calc(100vh - 100px);
+        height: fit-content;
         min-height: fit-content;
         max-height: fit-content;
         z-index: 99;
