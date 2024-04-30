@@ -62,6 +62,9 @@
 .advantages__img{
     max-width: 80%;
 }
+.advantages__item--img{
+    width: 40%;
+}
 .advantages__text-wrapper{
     background-color: var(--white-opasity);
     transform: skew(-10deg);
@@ -186,6 +189,7 @@
         max-width: 40%;
     }
     .advantages__item--img{
+        width: 40%;
         max-width: 40%;
         margin: 0 auto;
     }
@@ -236,6 +240,7 @@
         max-width: 50%;
     }
     .advantages__item--img {
+        width: 60%;
         max-width: 60%;
     }
     .main-title, .form-page__title {
