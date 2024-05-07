@@ -40,6 +40,12 @@ body{
 p{
     font-size: 18px;
 }
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.no-before:before{
+    display: none;
+}
 /*title*/
 
 
@@ -752,7 +758,7 @@ header{
 /*why-us end*/
 
 /*projects slider*/
-.projects{
+.grey_bg{
     background-color: var(--light-grey);
 }
 .swiper{

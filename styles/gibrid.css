@@ -1,0 +1,6 @@
+.content__blocks__left__text:before{
+    z-index: 0;
+}
+.min_gap_20{
+    gap: 20px
+}
