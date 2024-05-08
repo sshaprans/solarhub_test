@@ -1,6 +1,13 @@
+/*9*/
 .content__blocks__left__text:before{
     z-index: 0;
 }
 .min_gap_20{
     gap: 20px
+}
+.margin-bottom0{
+    margin-bottom: 0
+}
+.padding-bottom0{
+    padding-bottom: 0;
 }

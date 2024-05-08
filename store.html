@@ -12,11 +12,10 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/for_home_main.css">
-    <link rel="stylesheet" href="./styles/autonomous.css">
-    <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="styles/business.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/store.css">
 
-    <title>Сонячні панелі для бізнесу</title>
+    <title>Магазин товарів</title>
 </head>
 <body>
 
@@ -109,20 +108,45 @@
         </div>
     </header>
     <main>
-        <section class="banner" >
+        <section class="banner">
             <div class="container">
-                <div class="banner__wrapper banner__wrapper--business">
-                    <h1 class="main-title main-title--100">
-                        Сонячні електростанції для бізнесу
+                <div class="banner__wrapper">
+                    <h1 class="main-title">
+                        Магазин товарів
                     </h1>
-                    <p class="banner__text banner__text--100">
-                        Зменшить обсяг використання електроенергії з мережі на 30-50% на рік, залежно від режиму споживання на підприємстві.
-                    </p>
-                    <button class="btn btn-2 hover-slide-right btn-js">
-                        <span class="btn__span__wrapper">Замовити консультацію</span>
-                    </button>
-                    <img src="./img/business_banner.png" alt="Сонячні електростанції для бізнесу" class="banner__img--main-page banner__img--business">
 
+                    <div class="store-gallery">
+                        <a href="" class="store-gallery__block">
+                            <img src="./img/store/product1.png" alt="Сонячні панелі">
+                            <h5 class="product-title">
+                                Сонячні панелі
+                            </h5>
+                        </a>
+                        <a href="" class="store-gallery__block">
+                            <img src="./img/store/product2.png" alt="Сонячні панелі">
+                            <h5 class="product-title">
+                                Мережеві інвертори
+                            </h5>
+                        </a>
+                        <a href="" class="store-gallery__block">
+                            <img src="./img/store/product2.png" alt="Сонячні панелі">
+                            <h5 class="product-title">
+                                Гібридні інвертори
+                            </h5>
+                        </a>
+                        <a href="" class="store-gallery__block">
+                            <img src="./img/store/product3.png" alt="Сонячні панелі">
+                            <h5 class="product-title">
+                                Акумулятори
+                            </h5>
+                        </a>
+                        <a href="" class="store-gallery__block">
+                            <img src="./img/store/product5.png" alt="Сонячні панелі">
+                            <h5 class="product-title">
+                                Гібридні рішення
+                            </h5>
+                        </a>
+                    </div>
                     <div class="wrapper-contact-fixed ">
                         <div id="img3">
                             <svg width="30" height="30" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -192,215 +216,26 @@
                 </div>
             </div>
         </section>
-        <section class="advantages section-wrapper">
+        <section class="form-section">
             <div class="container">
-                <div class="section__title">
-                    <h2 class="section__title__text">
-                        Переваги сонячної <span class="section__title__text--green">станцій для бізнесу</span>
-                    </h2>
-                </div>
-                <div class="advantages__wrapper">
-                    <div class="advantages__item">
-                        <img src="./img/advantages_home_main.png" alt="Економія електроенергії" class="advantages__img">
-                        <div class=" advantages__text-wrapper">
-                            <div class="advantages__text">
-                                <h5 class="advantages__title">
-                                    Економія електроенергії
-                                </h5>
-                                <p class="advantages__description">
-                                    Сонячна електростанція зменшує споживання електроенергії протягом дня, забезпечуючи економію у 35-50% щорічно, залежно від режиму споживання на підприємстві.
-                                </p>
-                            </div>
-                        </div>
+                <div class="form-page__wrapper">
+                    <div class="green-block">
+                        <h3 class="form-page__title">Отримати консультацію</h3>
+                        <p class="form-page_text">
+                            Отримайте знижку 10% на перше замовлення
+                        </p>
                     </div>
-                    <div class="advantages__item">
-                        <img src="./img/advantages_home_main2.png" alt="Дохід від зеленої енергії" class="advantages__img">
-                        <div class=" advantages__text-wrapper">
-                            <div class="advantages__text">
-                                <h5 class="advantages__title">
-                                    Повернення інвестицій
-                                </h5>
-                                <p class="advantages__description">
-                                    При тарифі 7 грн/кВт-год для юридичних осіб, сонячна електростанція окупиться за 5,5 років при власному споживанні. З більшим тарифом окупність настане ще швидше.
-                                </p>
-                            </div>
+                    <form id="form-page" class="form-page" method="post" action="#####">
+                        <label class="input-text input-text--page" for="name-page">
+                            <input id="name-page" name="name-page" type="text" required placeholder="Ім'я"/>
+                        </label>
+                        <label class="input-text input-text--page" for="phone-page">
+                            <input type="tel" id="phone-page" name="phone-page"  required placeholder="Телефон"/>
+                        </label>
+                        <div class="btn btn-2 hover-slide-right btn-js btn__submit--page ">
+                            <input  id="submit-page" class="btn__span__wrapper form__page__submit--page" type="submit" value="Відправити"/>
                         </div>
-                    </div>
-
-                    <div class="advantages__item">
-                        <img src="./img/advantages_business_3.jpg" alt="Не вимагає додаткової реєстрації" class="advantages__img">
-                        <div class=" advantages__text-wrapper">
-                            <div class="advantages__text">
-                                <h5 class="advantages__title">
-                                    Не вимагає додаткової реєстрації
-                                </h5>
-                                <p class="advantages__description">
-                                    Сонячні електростанції для власного споживання не потребують оформлення «Зеленого» тарифу та погодження з державними структурами, спрощуючи процес.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="advantages__item">
-                        <img src="./img/advantages_business_4.jpg" alt="Покращення іміджу вашого бренду" class="advantages__img">
-                        <div class=" advantages__text-wrapper">
-                            <div class="advantages__text">
-                                <h5 class="advantages__title">
-                                    Покращення іміджу вашого бренду
-                                </h5>
-                                <p class="advantages__description">
-                                    Багато компаній у сегменті B2B віддають перевагу партнерам, що використовують відновлювані джерела енергії.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="advantages__item">
-                        <img src="./img/advantages_business_5.jpg" alt="Максимізація рентабельності бізнесу" class="advantages__img">
-                        <div class=" advantages__text-wrapper">
-                            <div class="advantages__text">
-                                <h5 class="advantages__title">
-                                    Максимізація рентабельності бізнесу
-                                </h5>
-                                <p class="advantages__description">
-                                    Економія електроенергії сприятиме зниженню собівартості продукту та послуг, що в свою чергу збільшить прибутковість вашого бізнесу чи підприємства.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="./img/advantages_home_main_last_item.png" alt="Переваги зеленої енергії" loading="lazy" class="advantages__item advantages__item--img">
-                </div>
-            </div>
-        </section>
-        <section class="mission section-wrapper ">
-            <div class="container">
-                <div class="section__title">
-                    <h2 class="section__title__text">
-                        Сфери <span class="section__title__text--green">використання</span>
-                    </h2>
-                </div>
-                <p class="section__suptitle">
-                    Такі станції встановлюються на дахах підприємств, виробничих ліній, логістичних складів з метою компенсації експлуатаційних витрат на електроенергію.
-                </p>
-                <div class="mission__blocks">
-                    <div class="mission__block">
-                        <img class="mission__img" src="./img/business_field1.jpg" alt="Послуги">
-                        <div class="mission__text__wrapper">
-                            <h5 class="mission__text__title">
-                                Послуги
-                            </h5>
-                            <ul class="mission__list">
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        СТО
-                                    </p>
-                                </li>
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        Мийки
-                                    </p>
-                                </li>
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        АЗС
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mission__block">
-                        <img class="mission__img" src="./img/business_field2.jpg" alt="Торгівля">
-                        <div class="mission__text__wrapper">
-                            <h5 class="mission__text__title">
-                                Торгівля
-                            </h5>
-                            <ul class="mission__list">
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        Супермаркети
-                                    </p>
-                                </li>
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        ТРЦ
-                                    </p>
-                                </li>
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        Склади
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mission__block">
-                        <img class="mission__img" src="./img/business_field3.jpg" alt="Сільське господарство">
-                        <div class="mission__text__wrapper">
-                            <h5 class="mission__text__title">
-                                Сільське господарство
-                            </h5>
-                            <ul class="mission__list">
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        Елеватори
-                                    </p>
-                                </li>
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        Фермерські господарства
-                                    </p>
-                                </li>
-                                <li class="mission__list__item">
-                                    <p class="mission__list__text">
-                                        Теплиці
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <p class="section__suptitle section__suptitle--content">
-                    Комплект сонячної станції під власне споживання
-                </p>
-                <div class="content__blocks">
-                    <ul class="content__blocks__left min-gap">
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Фотоелектричні модулі –</span>
-                                  Генератори енергії, які перетворюють сонячне світло на електрику.
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Інвертор –</span>
-                                 Обладнання для перетворення постійного струму в змінний.
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Акумулятор - </span>
-                                Пристрій, що зберігає та накопичує електроенергію.
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Кріплення – </span>
-                                Металеві конструкції для надійного кріплення сонячних модулів.
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Автоматика захисту –</span>
-                                 Відповідає за безпеку роботи сонячної станції та захищає основне обладнання.
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >SMART METER -</span>
-                                 Особливий тип електричного лічильника, який не тільки моніторить кількість спожитої електроенергії, а й обмежує продаж сонячної електроенергії в мережу.
-
-                            </p>
-                        </li>
-                    </ul>
+                    </form>
                 </div>
             </div>
         </section>
@@ -408,7 +243,7 @@
             <div class="container">
                 <div class="section__title">
                     <h2 class="section__title__text">
-                        Готові рішення <span class="section__title__text--green">для бізнесу</span>
+                        Магазин <span class="section__title__text--green">товарів</span>
                     </h2>
                 </div>
                 <div class="swiper swiper--main-store">
@@ -474,332 +309,6 @@
                 </div>
             </div>
         </section>
-
-        <article class="content-article content-article--grey">
-            <div class="container">
-                <div class="section__title">
-                    <h2 class="section__title__text">
-                        Послуга «Енергосервіс» <span class="section__title__text--green">для Бізнесу</span>
-                    </h2>
-                </div>
-                <div class="content-article__wrapper margin-bottom">
-                    <img class="content-article--img" src="./img/article2.jpg" alt="Solar Hub самостійно постачає обладнання з Європи та Азії">
-                    <div class="content-article__block-text">
-                        <div class="content-article__block-text__wrapper">
-                            <p class="content-article__text content-article__text--space">
-                                На умовах енергосервісного контракту, надаютьcя комплексні послуги з підвищення енергоефективності бізнесу <i><b>«під ключ»</b></i>, а саме встановлення сонячної станції на об’єтах Клієнта за кошти <b>Solar Hub</b>. Це включає технічну розробку енергоефективного проекту, фінансування, постачання та монтаж енергоефективного обладнання, гарантоване досягнення економії енергоресурсів, моніторинг енергоспоживання та сервісного обслуговування модернізованого обладнання, навчання співробітників клієнта з використання нового обладнання та технологій.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <p class="section__suptitle section__suptitle--content">
-                    Переваги енергосервісного контракту (EPC)
-                </p>
-                <div class="content__blocks">
-                    <ul class="content__blocks__left min-gap">
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Відсутність ризиків -</span>
-                                всі ризики досягнення економії енергоресурсів проекту бере на себе Solar Hub
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Легке фінансування -</span>
-                                 відсутність застави, комісійних платежів і процентних виплат на відміну від банківських кредитів
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Економія енергоресурсів -</span>
-                                 гарантована економія енергоресурсів після впровадження проекту
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Модернізація обладнання -</span>
-                                 клієнт отримує у власність нове обладнання після завершення договору
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >Прозорість інвестицій -</span>
-                                 повернення інвестицій відбувається виключно за рахунок досягнутої економії енергоресурсів
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </article>
-        <section class="calculation section-wrapper">
-            <div class="container">
-                <div class="section__title">
-                    <h2 class="section__title__text">
-                        Доступні кредити <span class="section__title__text--green">"5-7-9"</span>
-                    </h2>
-                </div>
-                <p class="section__suptitle">
-                    Допомагаємо в оформленні документі для програми. Приклад розрахунку ефективності СЕС для 10 років експлуатації з залученням кредиту:
-                </p>
-                <div class="calculation__wrapper">
-                    <div class="calculation__block">
-                        <div class="calculation__skew">
-                            <h5 class="product-title product-title--border-bottom">
-                                Вихідні параметри
-                            </h5>
-                            <ul class="calculation__list calculation__list--border-bottom">
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Потужність:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        151 кВт
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Щорічне зростання
-                                        електроенергії:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        8%
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Pозташування:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        дах
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Вартісь електроенергії:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        6,50грн/кВт* год
-                                    </p>
-                                </li>
-                            </ul>
-                            <div class="calculation__sum">
-                                <svg class="calculation__sum__svg" width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.3 28.764C23.75 28.764 30.6 26.725 30.6 24.2099C30.6 21.6947 23.75 19.6558 15.3 19.6558C6.85004 19.6558 0 21.6947 0 24.2099C0 26.725 6.85004 28.764 15.3 28.764Z" fill="#93D500"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9982 8.52919C14.0431 8.43945 14.1104 8.34972 14.1777 8.25998C14.4245 7.8786 14.6937 7.49722 14.9405 7.11584C15.5013 6.28578 16.0397 5.45572 16.623 4.6481C16.6679 4.60323 16.6903 4.55836 16.7127 4.51349C16.8922 4.19942 16.9819 3.75073 17.0717 3.41422C17.3185 2.42712 17.5877 1.52976 18.3056 0.789438C18.7991 0.273454 19.4497 -0.0406226 20.1451 0.00424554C21.3341 0.0939818 22.1418 1.08108 22.6802 2.06818C22.9943 2.65147 23.3308 3.48153 23.4429 4.13211C23.6448 5.23138 23.5102 6.57743 23.1513 7.8113C24.3179 7.96834 25.462 8.25998 26.4491 8.8657C28.4009 10.0547 28.5579 12.0065 27.5259 13.6217C27.7951 14.1826 27.9297 14.8107 27.9073 15.394C27.8849 15.7978 27.8176 16.1343 27.683 16.4708C28.3336 17.1439 28.6925 18.0188 28.4233 19.0732C27.9746 20.8904 26.3594 21.8775 24.7666 22.5954C21.4014 24.1209 17.296 23.4703 14.5366 21.0698C14.2674 21.4736 13.9309 21.8102 13.5047 22.0794C11.5305 23.4478 8.86083 22.9319 6.61743 22.8421C5.6079 22.7973 4.84515 22.0345 4.73298 21.1147C4.68811 20.9801 4.66567 20.8455 4.64324 20.7109C4.14969 17.3682 2.71391 12.1411 5.78737 9.60603C7.7167 8.03564 11.6202 7.13828 13.9982 8.52919Z" fill="#201E1E"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1109 10.6356C12.7649 8.32486 8.34538 9.40169 6.7077 10.7477C4.30725 12.6995 5.69817 17.8818 6.07954 20.4841C6.10198 20.5963 6.14685 20.686 6.19171 20.7309C6.14685 21.0225 6.30388 21.3815 6.68526 21.3815C9.37735 21.4937 13.2136 22.3237 13.909 18.9137C14.2007 17.3882 14.3577 15.773 14.425 14.2026C14.4923 13.1706 14.6718 11.5778 14.1109 10.6356Z" fill="#FEFEFE"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.6632 16.8505C26.0894 16.4467 26.4259 15.9756 26.4484 15.3698C26.4708 14.7417 26.2016 13.9341 25.6632 13.5751C26.8073 12.5432 27.256 11.0625 25.6856 10.0978C24.362 9.29022 22.5224 9.15562 20.952 9.13318C21.8494 7.83201 22.2308 5.70077 22.0064 4.37717C21.8942 3.63684 20.6379 0.451208 19.3592 1.77482C18.3945 2.78435 18.5964 4.42203 17.8112 5.5213C17.228 6.30649 16.712 7.13655 16.1511 7.94418C15.8819 8.32556 15.6351 8.72937 15.3659 9.11075C15.2986 9.17805 15.2762 9.24535 15.2313 9.33509C15.1416 9.42483 15.0743 9.55943 15.0743 9.71647C15.0519 12.7226 14.7826 15.7064 14.6256 18.6901C14.6256 18.8023 14.648 18.8696 14.6705 18.9369C14.6705 19.049 14.6929 19.1612 14.8051 19.2734C17.0934 21.8757 21.0193 22.6833 24.1601 21.2476C25.2818 20.754 26.6951 20.0137 27.0092 18.7125C27.2335 17.7927 26.4708 17.2094 25.6632 16.8505Z" fill="#FEFEFE"/>
-                                </svg>
-                                <p class="calculation__sum__text product-title">
-                                    Індикативна вартість станції - <span class="calculation__sum__text--green">4 452 5421 грн</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="calculation__block">
-                        <div class="calculation__skew">
-                            <h5 class="product-title product-title--border-bottom">
-                                Умови кредитування
-                            </h5>
-                            <ul class="calculation__list calculation__list--border-bottom">
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Перший внесок (30%):
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        1 250 220 грн
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Розмір кредиту (70%):
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        2 250 220 грн
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Процентна ставка:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        10% річних
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Відтермування:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        6 місяців
-                                    </p>
-                                </li>
-
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Страхування
-                                        (0,2% щорічно)
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        1 250 220 грн
-                                    </p>
-                                </li>
-                            </ul>
-                            <div class="calculation__sum">
-                                <svg class="calculation__sum__svg" width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.3 28.764C23.75 28.764 30.6 26.725 30.6 24.2099C30.6 21.6947 23.75 19.6558 15.3 19.6558C6.85004 19.6558 0 21.6947 0 24.2099C0 26.725 6.85004 28.764 15.3 28.764Z" fill="#93D500"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9982 8.52919C14.0431 8.43945 14.1104 8.34972 14.1777 8.25998C14.4245 7.8786 14.6937 7.49722 14.9405 7.11584C15.5013 6.28578 16.0397 5.45572 16.623 4.6481C16.6679 4.60323 16.6903 4.55836 16.7127 4.51349C16.8922 4.19942 16.9819 3.75073 17.0717 3.41422C17.3185 2.42712 17.5877 1.52976 18.3056 0.789438C18.7991 0.273454 19.4497 -0.0406226 20.1451 0.00424554C21.3341 0.0939818 22.1418 1.08108 22.6802 2.06818C22.9943 2.65147 23.3308 3.48153 23.4429 4.13211C23.6448 5.23138 23.5102 6.57743 23.1513 7.8113C24.3179 7.96834 25.462 8.25998 26.4491 8.8657C28.4009 10.0547 28.5579 12.0065 27.5259 13.6217C27.7951 14.1826 27.9297 14.8107 27.9073 15.394C27.8849 15.7978 27.8176 16.1343 27.683 16.4708C28.3336 17.1439 28.6925 18.0188 28.4233 19.0732C27.9746 20.8904 26.3594 21.8775 24.7666 22.5954C21.4014 24.1209 17.296 23.4703 14.5366 21.0698C14.2674 21.4736 13.9309 21.8102 13.5047 22.0794C11.5305 23.4478 8.86083 22.9319 6.61743 22.8421C5.6079 22.7973 4.84515 22.0345 4.73298 21.1147C4.68811 20.9801 4.66567 20.8455 4.64324 20.7109C4.14969 17.3682 2.71391 12.1411 5.78737 9.60603C7.7167 8.03564 11.6202 7.13828 13.9982 8.52919Z" fill="#201E1E"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1109 10.6356C12.7649 8.32486 8.34538 9.40169 6.7077 10.7477C4.30725 12.6995 5.69817 17.8818 6.07954 20.4841C6.10198 20.5963 6.14685 20.686 6.19171 20.7309C6.14685 21.0225 6.30388 21.3815 6.68526 21.3815C9.37735 21.4937 13.2136 22.3237 13.909 18.9137C14.2007 17.3882 14.3577 15.773 14.425 14.2026C14.4923 13.1706 14.6718 11.5778 14.1109 10.6356Z" fill="#FEFEFE"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.6632 16.8505C26.0894 16.4467 26.4259 15.9756 26.4484 15.3698C26.4708 14.7417 26.2016 13.9341 25.6632 13.5751C26.8073 12.5432 27.256 11.0625 25.6856 10.0978C24.362 9.29022 22.5224 9.15562 20.952 9.13318C21.8494 7.83201 22.2308 5.70077 22.0064 4.37717C21.8942 3.63684 20.6379 0.451208 19.3592 1.77482C18.3945 2.78435 18.5964 4.42203 17.8112 5.5213C17.228 6.30649 16.712 7.13655 16.1511 7.94418C15.8819 8.32556 15.6351 8.72937 15.3659 9.11075C15.2986 9.17805 15.2762 9.24535 15.2313 9.33509C15.1416 9.42483 15.0743 9.55943 15.0743 9.71647C15.0519 12.7226 14.7826 15.7064 14.6256 18.6901C14.6256 18.8023 14.648 18.8696 14.6705 18.9369C14.6705 19.049 14.6929 19.1612 14.8051 19.2734C17.0934 21.8757 21.0193 22.6833 24.1601 21.2476C25.2818 20.754 26.6951 20.0137 27.0092 18.7125C27.2335 17.7927 26.4708 17.2094 25.6632 16.8505Z" fill="#FEFEFE"/>
-                                </svg>
-                                <p class="calculation__sum__text product-title">
-                                    Строк кредитування:
-                                    <span class="calculation__sum__text--green">5 років</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="calculation__block">
-                        <div class="calculation__skew">
-                            <h5 class="product-title product-title--border-bottom">
-                                Висновок за розрахунками
-
-
-                            </h5>
-                            <ul class="calculation__list calculation__list--border-bottom">
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Економія за 10 років:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        14 202 202 грн
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Податковий кредит:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        670 000 грн
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Період окупності:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        4.5 років
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Генерація за
-                                        10 років:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        2 202 202 МВт*год
-                                    </p>
-                                </li>
-                                <li class="calculation__list__item">
-                                    <p class="calculation__list__item__name product-description ">
-                                        Щорічна генерація:
-                                    </p>
-                                    <p class="calculation__list__item__num product-description ">
-                                        202 202 МВт*год
-                                    </p>
-                                </li>
-
-                            </ul>
-                            <div class="calculation__sum">
-                                <svg class="calculation__sum__svg" width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.3 28.764C23.75 28.764 30.6 26.725 30.6 24.2099C30.6 21.6947 23.75 19.6558 15.3 19.6558C6.85004 19.6558 0 21.6947 0 24.2099C0 26.725 6.85004 28.764 15.3 28.764Z" fill="#93D500"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9982 8.52919C14.0431 8.43945 14.1104 8.34972 14.1777 8.25998C14.4245 7.8786 14.6937 7.49722 14.9405 7.11584C15.5013 6.28578 16.0397 5.45572 16.623 4.6481C16.6679 4.60323 16.6903 4.55836 16.7127 4.51349C16.8922 4.19942 16.9819 3.75073 17.0717 3.41422C17.3185 2.42712 17.5877 1.52976 18.3056 0.789438C18.7991 0.273454 19.4497 -0.0406226 20.1451 0.00424554C21.3341 0.0939818 22.1418 1.08108 22.6802 2.06818C22.9943 2.65147 23.3308 3.48153 23.4429 4.13211C23.6448 5.23138 23.5102 6.57743 23.1513 7.8113C24.3179 7.96834 25.462 8.25998 26.4491 8.8657C28.4009 10.0547 28.5579 12.0065 27.5259 13.6217C27.7951 14.1826 27.9297 14.8107 27.9073 15.394C27.8849 15.7978 27.8176 16.1343 27.683 16.4708C28.3336 17.1439 28.6925 18.0188 28.4233 19.0732C27.9746 20.8904 26.3594 21.8775 24.7666 22.5954C21.4014 24.1209 17.296 23.4703 14.5366 21.0698C14.2674 21.4736 13.9309 21.8102 13.5047 22.0794C11.5305 23.4478 8.86083 22.9319 6.61743 22.8421C5.6079 22.7973 4.84515 22.0345 4.73298 21.1147C4.68811 20.9801 4.66567 20.8455 4.64324 20.7109C4.14969 17.3682 2.71391 12.1411 5.78737 9.60603C7.7167 8.03564 11.6202 7.13828 13.9982 8.52919Z" fill="#201E1E"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1109 10.6356C12.7649 8.32486 8.34538 9.40169 6.7077 10.7477C4.30725 12.6995 5.69817 17.8818 6.07954 20.4841C6.10198 20.5963 6.14685 20.686 6.19171 20.7309C6.14685 21.0225 6.30388 21.3815 6.68526 21.3815C9.37735 21.4937 13.2136 22.3237 13.909 18.9137C14.2007 17.3882 14.3577 15.773 14.425 14.2026C14.4923 13.1706 14.6718 11.5778 14.1109 10.6356Z" fill="#FEFEFE"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.6632 16.8505C26.0894 16.4467 26.4259 15.9756 26.4484 15.3698C26.4708 14.7417 26.2016 13.9341 25.6632 13.5751C26.8073 12.5432 27.256 11.0625 25.6856 10.0978C24.362 9.29022 22.5224 9.15562 20.952 9.13318C21.8494 7.83201 22.2308 5.70077 22.0064 4.37717C21.8942 3.63684 20.6379 0.451208 19.3592 1.77482C18.3945 2.78435 18.5964 4.42203 17.8112 5.5213C17.228 6.30649 16.712 7.13655 16.1511 7.94418C15.8819 8.32556 15.6351 8.72937 15.3659 9.11075C15.2986 9.17805 15.2762 9.24535 15.2313 9.33509C15.1416 9.42483 15.0743 9.55943 15.0743 9.71647C15.0519 12.7226 14.7826 15.7064 14.6256 18.6901C14.6256 18.8023 14.648 18.8696 14.6705 18.9369C14.6705 19.049 14.6929 19.1612 14.8051 19.2734C17.0934 21.8757 21.0193 22.6833 24.1601 21.2476C25.2818 20.754 26.6951 20.0137 27.0092 18.7125C27.2335 17.7927 26.4708 17.2094 25.6632 16.8505Z" fill="#FEFEFE"/>
-                                </svg>
-                                <p class="calculation__sum__text product-title">
-                                    Щомісячний платіж-
-                                     <span class="calculation__sum__text--green">75 000 грн</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <article class="content-article content-article--grey">
-            <div class="container">
-                <div class="section__title">
-                    <h2 class="section__title__text">
-                        Етапи <span class="section__title__text--green">робіт</span>
-                    </h2>
-                </div>
-                <p class="section__suptitle section__suptitle--content">
-                    Переваги енергосервісного контракту (EPC)
-                </p>
-                <div class="content__blocks">
-                    <ul class="content__blocks__left">
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >ПРОЕКТУВАННЯ СОНЯЧНОЇ ЕЛЕКТРОСТАНЦІЇ - </span>
-                                Проводимо безконтактні виміри за допомогою дрону та у спеціальній програмі Pix4D відтворюємо 3D модель об'єкта. Готуємо проект розташування сонячних панелей у AutoCad
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >ПІДБІР ОБЛАДНАННЯ -</span>
-                                Враховуючи аудит енергоспоживання та готовий проект обираємо оптимальне обладнання для сонячної електростанції
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >РОЗРАХУНОК ВАРТОСТІ ТА ТЕХНІКО-ЕКОНОМІЧНОГО ОБҐРУНТУВАННЯ -</span>
-                                Готуємо цінову пропозицію, проводимо розрахунок продуктивності станції та на підставі існуючих тарифів прораховуємо економічну доцільність та термін окупності
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >ПІДПИСАННЯ ДОГОВОРУ -</span>
-                                Узгоджуємо терміни реалізації проекту, календарний план та загальні умови ведення проекту
-                            </p>
-                        </li>
-                        <li class="content__blocks__left__item">
-                            <p class="content__blocks__left__text  content__blocks__left__text--grey">
-                                <span class="content__blocks__left__span" >БУДІВНИЦТВО СЕС -</span>
-                                Готуємо цінову пропозицію, проводимо розрахунок продуктивності станції та на підставі існуючих тарифів прораховуємо економічну доцільність та термін окупності
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </article>
-
-
-        <section class="form-section">
-            <div class="container">
-                <div class="form-page__wrapper">
-                    <div class="green-block">
-                        <h3 class="form-page__title">Залишились питання</h3>
-                        <p class="form-page_text">
-                            Отримайте знижку 10% на перше замовлення
-                        </p>
-                    </div>
-                    <form id="form-page" class="form-page" method="post" action="#####">
-                        <label class="input-text input-text--page" for="name-page">
-                            <input id="name-page" name="name-page" type="text" required placeholder="Ім'я"/>
-                        </label>
-                        <label class="input-text input-text--page" for="phone-page">
-                            <input type="tel" id="phone-page" name="phone-page"  required placeholder="Телефон"/>
-                        </label>
-                        <div class="btn btn-2 hover-slide-right btn-js btn__submit--page ">
-                            <input  id="submit-page" class="btn__span__wrapper form__page__submit--page" type="submit" value="Відправити"/>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
     </main>
 </div>
 
@@ -831,7 +340,6 @@
             <div class="btn btn-2 hover-slide-right btn-js btn__submit--modal">
                 <input  id="submit" class="btn__span__wrapper form__page__submit--modal" type="submit" value="Відправити"/>
             </div>
-            <!--            <input  id="submit" class="form__page__submit form__page__submit&#45;&#45;modal" type="submit" value="Відправити"/>-->
 
         </form>
         <article class="form-contacts">

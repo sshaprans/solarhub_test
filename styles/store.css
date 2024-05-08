@@ -1,0 +1,19 @@
+/*10*/
+.store-gallery{
+    display: flex;
+    justify-content: center;
+    gap: 80px  50px;
+    flex-wrap: wrap;
+}
+.store-gallery__block{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 3px solid var(--grey);
+    transition: all 0.3s ease-in-out;
+}
+.store-gallery__block:hover{
+    border: 3px solid var(--green);
+    scale: 1.1;
+}
