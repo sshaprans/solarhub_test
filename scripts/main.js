@@ -35,10 +35,10 @@ const swiperProjectMain = new Swiper(".swiper-project-main", {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 60,
-    // autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -68,10 +68,10 @@ const swiperStoreMain = new Swiper(".swiper--main-store", {
     loop: true,
     slidesPerView: 4,
     spaceBetween: 20,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
