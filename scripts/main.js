@@ -68,10 +68,10 @@ const swiperStoreMain = new Swiper(".swiper--main-store", {
     loop: true,
     slidesPerView: 4,
     spaceBetween: 20,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
