@@ -776,7 +776,7 @@ header{
     align-items: center;
     transition: all .3s ease-in-out;
     justify-content: space-between;
-    height: initial;
+    height: auto;
 }
 .swiper-slide--swiper-project-main:hover{
     scale: 1.05;
@@ -789,7 +789,7 @@ header{
     object-fit: contain;
 }
 .swiper-project-main__text-wrapper{
-    height: -webkit-fill-available;
+    height: 100%;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;

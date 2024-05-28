@@ -35,10 +35,10 @@ const swiperProjectMain = new Swiper(".swiper-project-main", {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 60,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 3000,
+    //     disableOnInteraction: false,
+    // },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
