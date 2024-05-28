@@ -24,4 +24,8 @@
 .content--grey{
     background-color: var(--light-grey);
 }
+.flex-center{
+    justify-content: space-around;
+
+}
 /*autonomous end*/

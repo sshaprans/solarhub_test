@@ -1007,8 +1007,35 @@ header{
     color: var(--green);
 }
 /*footer end*/
-/*media*/
 
+/*part to work*/
+.part-to-work__item{
+    list-style-type: decimal;
+    font-size: 22px;
+    margin-left: 10px;
+    color: var(--green);
+    font-weight: 900;
+}
+.content__blocks__left__text--grey{
+    color: var(--dark-grey);
+    font-weight: 400;
+}
+.part-to-work{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*park to work end*/
+
+/*media*/
+@media (max-width: 1060px) {
+    .modal-content {
+        margin: 0 auto;
+        padding: 40px 0;
+        gap: 50px;
+    }
+}
 @media (max-width: 1000px) {
     .nav > .nav-list {
         gap: 1rem;
@@ -1022,7 +1049,8 @@ header{
         width: 60%;
     }
     .main-title,
-    .form-page__title{
+    .form-page__title,
+    .form__title{
         font-size: 36px;
     }
     .banner__text,
@@ -1030,7 +1058,8 @@ header{
         font-size: 22px;
     }
     .section__suptitle,
-    .form-page_text{
+    .form-page_text,
+    .form__text{
         font-size: 18px;
     }
     .btn .btn__span__wrapper,
@@ -1066,6 +1095,29 @@ header{
     }
     .why-us__img {
         width: 50%;
+    }
+}
+@media (max-width: 930px) {
+    #form--modal {
+        padding: 0 0 0 20px;
+    }
+    .modal-content {
+        gap: 30px;
+        flex-direction: column;
+    }
+    .btn__submit--modal {
+        margin-top: 0px;
+        width: 60%;
+    }
+    .form__text{
+        margin-bottom: 20px;
+    }
+    .input-text {
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .modal-content {
+        padding: 20px 0 0;
     }
 }
 @media (max-width: 830px) {
@@ -1199,7 +1251,7 @@ header{
         margin-left: 15px;
     }
     .green-block {
-        padding: 30px 30px 50px 30px;
+        padding: 10px 20px 50px 10px;
     }
     .banner__img--main-page{
         width: 80%;
@@ -1211,6 +1263,22 @@ header{
     }
     .banner__wrapper {
         padding: 50px 0 200px;
+    }
+}
+@media (max-width: 605px) {
+    .form__title{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .form__text{
+        font-size: 18px;
+    }
+    .modal-content{
+        margin-top: 10px;
+        width: 80%;
+    }
+    .form-contacts{
+        width: 80%;
     }
 }
 @media(max-width: 500px){
@@ -1240,6 +1308,13 @@ header{
 @media (max-width: 350px) {
     .form-page {
         margin-left: 34px;
+    }
+    .modal-content{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .form-contacts{
+        width: 90%;
     }
 }
 
