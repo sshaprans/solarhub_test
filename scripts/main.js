@@ -63,7 +63,7 @@ const swiperProjectMain = new Swiper(".swiper-project-main", {
         },
     },
 });
-const swiperStoreMain = new Swiper(".swiper--main-store", {
+const swiperStoreMain = new Swiper(".swiper--slider_store", {
     lazy: true,
     loop: true,
     slidesPerView: 4,
@@ -83,15 +83,15 @@ const swiperStoreMain = new Swiper(".swiper--main-store", {
             slidesPerView: 1,
             spaceBetween: 20,
         },
-        520: {
+        570: {
             slidesPerView: 2,
             spaceBetween: 20,
         },
-        720: {
+        850: {
             slidesPerView: 3,
             spaceBetween: 20,
         },
-        950: {
+        1270: {
             slidesPerView: 4,
             spaceBetween: 20,
         },
@@ -108,3 +108,18 @@ btnFixed.addEventListener('click', () => {
 btnFixed.addEventListener('click', () => {
     btnFixedList.classList.toggle('pulse');
 })
+btnFixed.addEventListener('click', () => {
+    btnFixedList.classList.toggle('wrapper-contact-fixed__before');
+})
+
+
+// mobile menu
+const checkedBtn = document.getElementById('nav-check');
+const linkContact = document.getElementById('mobile-contact');
+
+linkContact.addEventListener('click',()=>{
+    checkedBtn.checked = !checkedBtn.checked;
+})
+
+
+

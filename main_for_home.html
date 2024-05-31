@@ -9,9 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="stylesheet" href="./styles/for_home_main.css">
+  <link rel="stylesheet" href="./styles/styles-pages.css">
 
   <title>Home main</title>
 </head>
@@ -484,51 +485,138 @@
         </table>
       </div>
     </section>
+    <section class="projects_slider section-wrapper grey_bg">
+      <div class="container">
+        <div class="projects__wrapper">
+          <div class="section__title">
+            <h2 class="section__title__text">
+              Виконані <span class="section__title__text--green">проекти</span>
+            </h2>
+          </div>
+          <div class="swiper swiper-project-main">
+            <div class="swiper-wrapper swiper-wrapper--project-main">
+              <a href="./project_truskavec.html" class="swiper-slide swiper-slide--swiper-project-main">
+                <img src="./img/truskavec.jpg" alt="Трускавецька міська лікарня" loading="lazy" class="swiper-project-main__img">
+                <div class="swiper-project-main__text-wrapper">
+                  <p class="swiper-project-main__text__name">
+                    Комунальне Некомерційне Підприємство "Трускавецька Міська Лікарня" Трускавецької Міської Ради
+                  </p>
+                  <p class="swiper-project-main__text__description">
+                    Сонячна станція для власного споживання.
+                  </p>
+                  <p class="swiper-project-main__text__power">
+                    потужність 105 кВт.
+                  </p>
+                </div>
+              </a>
+              <a href="./project_drogobich.html" class="swiper-slide swiper-slide--swiper-project-main">
+                <img src="./img/drogobich.jpg" alt="Дрогобицька міська лікарня №1" loading="lazy" class="swiper-project-main__img">
+                <div class="swiper-project-main__text-wrapper">
+                  <p class="swiper-project-main__text__name">
+                    Комунальне Некомерційне Підприємство "Дрогобицька міська лікарня №1" Дрогобицької Міської Ради
+                  </p>
+                  <p class="swiper-project-main__text__description">
+                    Сонячна станція для власного споживання
+                  </p>
+                  <p class="swiper-project-main__text__power">
+                    потужність 149 кВт.
+                  </p>
+                </div>
+              </a>
+              <a href="./project_chornomorst.html" class="swiper-slide swiper-slide--swiper-project-main">
+                <img src="./img/chornomorsk.jpg" alt="КП «Чорноморськводоканал»" loading="lazy" class="swiper-project-main__img">
+                <div class="swiper-project-main__text-wrapper">
+                  <p class="swiper-project-main__text__name">
+                    Комунальне  підприємство “Чорноморськводоканал” Чорноморської міської ради
 
-    <section class="section-wrapper store store--grey">
+                  </p>
+                  <p class="swiper-project-main__text__description">
+                    Сонячна станція для власного споживання
+                  </p>
+                  <p class="swiper-project-main__text__power">
+                    потужність 497 кВт
+                  </p>
+                </div>
+              </a>
+              <a href="./project_lviv.html" class="swiper-slide swiper-slide--swiper-project-main">
+                <img src="./img/lviv.png" alt="Трускавецька міська лікарня" loading="lazy" class="swiper-project-main__img">
+                <div class="swiper-project-main__text-wrapper">
+                  <p class="swiper-project-main__text__name">
+                    Львівське міське комунальне підприємство
+                    "Львівводоканал
+                  </p>
+                  <p class="swiper-project-main__text__description">
+                    Сонячна станція для власного споживання
+
+                  </p>
+                  <p class="swiper-project-main__text__power">
+                    потужність 700 кВт.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-wrapper store">
       <div class="container">
         <div class="section__title">
           <h2 class="section__title__text">
-            Готові <span class="section__title__text--green">рішення</span>
+            Магазин <span class="section__title__text--green">товарів</span>
           </h2>
         </div>
-        <div class="swiper swiper--main-store">
+        <div class="swiper swiper--slider_store">
           <div class="swiper-wrapper swiper-wrapper--main-store">
+            <a href="./store-panel.html#Hitouch6N-HN21N-66HT700W" class="swiper-slide swiper--slider_store__slide">
+              <img src="./img/logo/hanersun_logo.png" class="slider-product-logo" alt="hanersun"/>
+              <img src="./img/logo/HItouch-6n-1.png" class="product-model" alt="HItouch 6n 1">
+              <img src="./img/store/product_page-page.png" class="slider-product-img" alt="solar panel">
+              <p class="product-description">
+                Сонячна панель з монокристалічним елементом
+              </p>
+              <p class="product-mark product-mark--slider">
+                HN21N-66HT700W
+              </p>
+            </a>
+            <a href="" class="swiper-slide swiper--slider_store__slide">
+              <img src="./img/logo/br_solar_grope.webp" class="slider-product-logo slider-product-logo--bg" alt="br_solar_grope"/>
+              <img src="./img/store/batery-store.png" alt="br_solar_grope" class="slider-product-img">
+              <p class="product-description">
+                Високовольтна акумуляторна
+                літієва батарея
+              </p>
+              <p class="product-mark product-mark--slider">
+                27,13 кВт/256 В/ 106 Ач
 
-            <a href="" class="swiper-slide swiper-slide--main-store swiper-slide--main-home-slide">
-              <h6 class="product-title">
-                Hanersun
-              </h6>
-              <p class="product-model">HNB7.5K-HV</p>
-              <img src="./img/store2.png" alt="solar panel">
-              <p class="product-description">
-                Сонячна електростанція на похилій покрівлі.
               </p>
-              <p class="product-mark">17  кBт</p>
             </a>
-            <a href="" class="swiper-slide swiper-slide--main-store swiper-slide--main-home-slide">
-              <h6 class="product-title">
-                Hanersun
-              </h6>
-              <p class="product-model">680-700W</p>
-              <img src="./img/store1.png" alt="solar panel">
+            <a href="" class="swiper-slide swiper--slider_store__slide">
+              <img src="./img/logo/hanersun_logo.png" class="slider-product-logo slider-product-logo--only-logo-hanersun" alt="br_solar_grope"/>
+              <img src="./img/store/hybrid_position.png" alt="br_solar_grope" class="slider-product-img">
               <p class="product-description">
-                Готове рішення сонячної станції, для вашої оселі.
+                Комплекти гібридних
+                рішень сонячних електростанцій
+
               </p>
-              <p class="product-mark">30 кBт</p>
+              <p class="product-mark product-mark--slider">
+                10 кВт
+              </p>
             </a>
-            <a href="" class="swiper-slide swiper-slide--main-store swiper-slide--main-home-slide">
-              <h6 class="product-title">
-                Hanersun
-              </h6>
-              <p class="product-model">HNB7.5K-HV</p>
-              <img src="./img/store2.png" alt="solar panel">
+            <a href="" class="swiper-slide swiper--slider_store__slide">
+              <img src="./img/logo/deye.png" class="slider-product-logo slider-product-logo--deye" alt="deye"/>
+              <img src="./img/store/deye-hybrid-inverter.png" alt="br_solar_grope" class="slider-product-img">
               <p class="product-description">
-                Сонячна електростанція на похилій покрівлі.
+                Трифазний високовольтний
+                гібридний інвертор SUN-50K 50KW
               </p>
-              <p class="product-mark">17  кBт</p>
+              <p class="product-mark product-mark--slider">
+                SG01HP3-EU-BM4
+              </p>
             </a>
-            <a href="" class="swiper-slide swiper-slide--main-store swiper-slide--main-home-slide">
+
+            <a href="" class="swiper-slide swiper--slider_store__slide">
               <h6 class="product-title">
                 Hanersun
               </h6>
@@ -539,7 +627,29 @@
               </p>
               <p class="product-mark">30 кBт</p>
             </a>
-            <a href="" class="swiper-slide swiper-slide--main-store swiper-slide--main-home-slide">
+            <a href="" class="swiper-slide swiper--slider_store__slide">
+              <h6 class="product-title">
+                Hanersun
+              </h6>
+              <p class="product-model">HNB7.5K-HV</p>
+              <img src="./img/store2.png" alt="solar panel">
+              <p class="product-description">
+                Сонячна електростанція на похилій покрівлі.
+              </p>
+              <p class="product-mark">17  кBт</p>
+            </a>
+            <a href="" class="swiper-slide swiper--slider_store__slide">
+              <h6 class="product-title">
+                Hanersun
+              </h6>
+              <p class="product-model">680-700W</p>
+              <img src="./img/store1.png" alt="solar panel">
+              <p class="product-description">
+                Готове рішення сонячної станції, для вашої оселі.
+              </p>
+              <p class="product-mark">30 кBт</p>
+            </a>
+            <a href="" class="swiper-slide swiper--slider_store__slide">
               <h6 class="product-title">
                 Hanersun
               </h6>
